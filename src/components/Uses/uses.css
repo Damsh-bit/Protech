@@ -33,3 +33,31 @@
 .bg{
     background-color: #0c6253;
 }
+
+
+@media screen and (max-width: 1367px) {
+  .uses__text h1{
+    font-size: 38px;
+  }
+
+  .uses__container img{
+    height: 300px;
+  }
+
+  .uses__box h1{
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (max-width: 830px) {
+  .uses__text h1{
+    font-size: 20px;
+  }
+  .img-bg1{
+    display: none;
+  }
+  .img-bg2{
+    display: none;
+  }
+}

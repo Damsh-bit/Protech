@@ -29,7 +29,7 @@ const Home = () => {
             <img data-aos="flip-down"  src={Icons} alt="IconsHome" />
           </div>
 
-          <div>
+          <div className="img-home">
             <img data-aos="fade-right" height="600px" width="600px" src={HomeBrand} alt="HomeBrand" />
           </div>
         </div>

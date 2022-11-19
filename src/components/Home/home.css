@@ -52,3 +52,34 @@
   margin: 0;
   line-height: 1.5rem;
 }
+
+@media screen and (max-width: 1367px) {
+  .home__container h3 {
+    font-size: 20px;
+  }
+
+  .home__container h1 {
+    font-size: 40px;
+  }
+
+  .home__container span {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .home__text img {
+    margin-top: 1rem;
+    width: 300px;
+  }
+
+  .img-home img{
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+.img-home{
+  display: none;
+}
+}

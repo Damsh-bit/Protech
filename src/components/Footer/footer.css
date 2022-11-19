@@ -51,3 +51,26 @@
     font-size: 40px;
     margin: 0.7rem;
 }
+
+@media screen and (max-width: 1367px) {
+  .footer_text-box h1{
+    font-size: 20px;
+  }
+  .footer_text-box span{
+    font-size: 10px;
+  }
+  .footer__social h1{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+ .footer__social{
+  flex-direction: row;
+ }
+
+ .footer__content{
+  grid-template-columns: 1fr;
+ }
+ 
+}
