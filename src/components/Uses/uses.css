@@ -1,0 +1,35 @@
+.img-bg1 {
+  height: 600px;
+  width: 450px;
+  position: absolute;
+  right: -200px;
+}
+
+.img-bg2 {
+  height: 600px;
+  width: 450px;
+  position: absolute;
+  left: -200px;
+}
+
+
+
+.uses__text h1 {
+  font-size: 48px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  margin: 0;
+  position: relative;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.uses__box h1{
+    color: white;
+}
+
+.bg{
+    background-color: #0c6253;
+}

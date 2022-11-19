@@ -1,34 +1,34 @@
 import React from "react";
-import bg from "../../assets/bg-elements.png";
-import "./features.css";
-import AntiScratch from "../../assets/AntiScratch.png";
-import AntiBacterial from "../../assets/AntiBacterial.png";
-import Transparency from "../../assets/Transparency.png";
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+import "./devices.css";
+import iconsBG from "../../assets/icons-bg.png";
+import phoneBG from "../../assets/phone-bg.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-const Features = () => {
+const Devices = () => {
   useEffect(() => {
     Aos.init({
-      duration: 1500
+      duration: 1500,
     });
-  },[])
+  }, []);
   return (
-    <section id="Features">
-      <div className="section__features section container">
-        <div className="features__container container">
-          <img data-aos="fade-down" className="bg-elements" src={bg} alt="bg-elements" />
-          <div data-aos="fade-down" className="features__text">
+    <section id="Devices">
+      <div className="section__devices section container">
+        <div className="devices__container container">
+          <img data-aos="fade-left" className="img1" src={iconsBG} alt="iconsBG" />
+          <img data-aos="fade-right" className="img2" src={phoneBG} alt="iconsBG" />
+          <div data-aos="fade-left" className="devices__text">
             <h1>
-              Main Features Of <h1 className="high"> Protectors </h1>
+              We Make Your Device
+              <h1 className="high"> Damage Free </h1>
             </h1>
           </div>
 
-          <div className="feature__grid">
-            <div data-aos="zoom-in-up" className="feature__box">
-              <img src={AntiBacterial} alt="AntiBacteria" />
-              <h1>Anti-Bacterial</h1>
+          <div className="device__grid">
+            <div data-aos="zoom-out-down" className="device__box">
+              <i class="uil uil-mobile-android"></i>
+              <h1>Mobile Phone</h1>
               <button class="cta">
                 <span class="hover-underline-animation"> Learn More </span>
                 <svg
@@ -48,9 +48,9 @@ const Features = () => {
               </button>
             </div>
 
-            <div data-aos="zoom-in-up" className="feature__box">
-              <img src={Transparency} alt="Transparency" />
-              <h1>Excellent Transparency</h1>
+            <div data-aos="zoom-out-down" className="device__box">
+              <i class="uil uil-laptop"></i>
+              <h1>Laptop</h1>
               <button class="cta">
                 <span class="hover-underline-animation"> Learn More </span>
                 <svg
@@ -70,9 +70,9 @@ const Features = () => {
               </button>
             </div>
 
-            <div data-aos="zoom-in-up" className="feature__box">
-              <img src={AntiScratch} alt="AntiScratch" />
-              <h1>Anti-Scratch</h1>
+            <div data-aos="zoom-out-down" className="device__box">
+              <i class="uil uil-tablet"></i>
+              <h1>Tablet</h1>
               <button class="cta">
                 <span class="hover-underline-animation"> Learn More </span>
                 <svg
@@ -98,4 +98,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default Devices;
