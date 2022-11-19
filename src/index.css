@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Lato", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.section {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container {
+  margin-bottom: 200px !important;
+  
+}
+
+.bg {
+  width: 100%;
+}

@@ -1,0 +1,54 @@
+.section__home {
+  background: rgb(13, 135, 114);
+  background: linear-gradient(
+    180deg,
+    rgba(13, 135, 114, 1) 0%,
+    rgba(13, 89, 76, 1) 100%
+  );
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.home__container {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  justify-content: center;
+  gap: 70px;
+}
+
+.home__text {
+  width: 400px;
+}
+
+.home__text img {
+  margin-top: 4rem;
+}
+
+.home__container h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  margin: 0;
+}
+
+.home__container h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.home__container span {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  margin: 0;
+  line-height: 1.5rem;
+}
